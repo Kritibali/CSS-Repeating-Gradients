@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS-Repeating-Gradients</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".copy1").click(function(){
+            var bg=$(".grad1").css("background");
+          document.execCommand("copy");
+          alert("Copied to clipboard");
+            });
+        });
+    </script>
+</head>
+<body>
+    <section class="grad1">1 <button class="copy1" >Copy</button></section>
+    <section class="grad2">2 <button class="copy2" onclick="mufunc2()">Copy</button></section>
+    <section class="grad3">3 <button class="copy3" onclick="mufunc3()">Copy</button></section>
+    <section class="grad4">4 <button class="copy4" onclick="mufunc4()">Copy</button></section>
+    <section class="grad5">5 <button class="copy5" onclick="mufunc5()">Copy</button></section>
+    <section class="grad6">6 <button class="copy6" onclick="mufunc6()">Copy</button></section>
+    <section class="grad7">7 <button class="copy7" onclick="mufunc7()">Copy</button></section>
+    <section class="grad8">8 <button class="copy8" onclick="mufunc8()">Copy</button></section>
+    <section class="grad9">9 <button class="copy9" onclick="mufunc9()">Copy</button></section>
+    <section class="grad10">10 <button class="copy10" onclick="mufunc10()">Copy</button></section>
+</body>
+</html>
